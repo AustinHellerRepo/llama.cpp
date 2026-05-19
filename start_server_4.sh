@@ -7,7 +7,7 @@ build/bin/Release/llama-server \
   --min-p 0.00 \
   --chat-template-kwargs "{\"enable_thinking\": false}" \
   -ngl 100 \
-  --ctx-size 131072 \
+  --ctx-size 196608 \
   --parallel 1 \
   --tensor-split 1,1 \
   --flash-attn on \
